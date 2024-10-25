@@ -10,6 +10,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    text-align: center;
+    background-position: center; 
   }
 
 #main_tittle{
@@ -24,7 +26,7 @@ body {
 #footer{
   height: 5vh;
   width: 50vh;
-  margin-top: 400vh;
+  margin-top: 500vh;
   text-align: center;
   padding: 1vh;
 }
@@ -82,11 +84,14 @@ h1{
 .section_info{
   font-size: 2.5vh; 
 }
-.mini_text1, .mini_text2, .text_2, .text_2_socials{
-  font-style: italic;
+.mini_text1, .mini_text2, .text_2, .text, .text_2_socials{
+
   margin-left: 3vh;
   line-height: 1.8;
   text-align: center;
+}
+.text{
+  font-size: 3vh;
 }
 .mini_text2{
   margin-top: -3vh;
@@ -107,10 +112,14 @@ h2{
   text-align: center;
 }
 /* ASIDE + IMAGES*/
-.img_aside, .img_middle{
+.img_aside, .img_middle, .blink_aside{
   width:100%;
   margin-top: 5vh;
   margin-bottom: 2vh;
+ }
+.blink_aside{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
 .img_middle{
   margin-bottom: 0vh;
@@ -126,13 +135,18 @@ h2{
   text-align: center;
   margin-top: 1vh;
 }
-.divider_aside, .divider_aside_img{
+.divider_aside, .divider_aside_project, .divider_aside_img{
   border-top: 0.2vh solid #A40606;  
   margin-top: 1vh; 
   display:flex;
   padding-top: 2vh;
 }
+.divider_aside_project{
+  display:block;
+  align-items: center;
+}
 .divider_aside_img{
+  display:block;
   border-top: 0px;
   margin-top: -2vh;
 }
